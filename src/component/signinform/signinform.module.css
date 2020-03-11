@@ -1,0 +1,223 @@
+.maindiv {
+  padding-top: 5%;
+  padding-left: 9%;
+  width: 100%;
+  height: 110vh;
+  background-image: url("../assets//images/slide4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maindiv > form {
+  color: black;
+  background-color: #ffffff;
+  padding: 35px 30px;
+  margin-right: 20px;
+  /* border: 1px solid; */
+  max-width: 370px;
+}
+.name {
+  width: 100%;
+  border: 1px solid #cedcef;
+  padding: 8px 12px;
+  padding-left: 40px;
+  margin-top: 15px;
+  margin-left: -12px;
+}
+.name:focus {
+  outline: none;
+}
+.icn1 {
+  position: relative;
+  top: 22px;
+  left: 20px;
+}
+.icn2 {
+  position: relative;
+  font-size: 19px;
+  top: 21px;
+  left: 20px;
+}
+
+/*  */
+/* The container */
+.main {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.main input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  height: 20px;
+  width: 20px;
+  background-color: gray;
+}
+
+/* On mouse-over, add a grey background color */
+/* .main:hover input ~ .checkmark {
+  opacity: 0.8;
+} */
+
+/* When the checkbox is checked, add a blue background */
+.main input:checked ~ .checkmark {
+  background-color: #0000b3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.main input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.main .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 7px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.but_read {
+  margin-top: -10px;
+  text-align: center;
+  padding: 8px 25px;
+  width: 100px;
+  height: 45px;
+  border: 1px solid #0000b3;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.but_read:hover {
+  /* margin-top: -1px; */
+  cursor: pointer;
+  background-color: #0000b3;
+  color: white;
+}
+#remem_div {
+  border: 1px solid;
+}
+.anc {
+  color: #ff7d7d;
+}
+.anc:hover {
+  color: #ff7d7d;
+}
+/*  */
+
+.divider {
+  /* minor cosmetics */
+  display: table;
+  font-size: 22px;
+  text-align: center;
+  width: 100%; /* divider width */
+  margin: 30px auto; /* spacing above/below */
+}
+.divider span {
+  display: table-cell;
+  position: relative;
+}
+.divider span:first-child,
+.divider span:last-child {
+  width: 50%;
+  top: 17px; /* adjust vertical align */
+  -moz-background-size: 100% 2px; /*line width*/
+  background-size: 100% 2px; /* line width */
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.divider span:first-child {
+  /* color changes in here */
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(transparent),
+    to(#808080)
+  );
+  background-image: -webkit-linear-gradient(180deg, transparent, #808080);
+  background-image: -moz-linear-gradient(180deg, transparent, #808080);
+  background-image: -o-linear-gradient(180deg, transparent, #808080);
+  background-image: linear-gradient(90deg, transparent, #808080);
+}
+.divider span:nth-child(2) {
+  color: #000;
+  padding: 0px 5px;
+  width: auto;
+  white-space: nowrap;
+}
+.divider span:last-child {
+  /* color changes in here */
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#808080),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(180deg, #808080, transparent);
+  background-image: -moz-linear-gradient(180deg, #808080, transparent);
+  background-image: -o-linear-gradient(180deg, #808080, transparent);
+  background-image: linear-gradient(90deg, #808080, transparent);
+}
+.socialicn {
+  padding-top: 60px;
+  text-align: center;
+}
+.socialicn > a {
+  margin-right: 25px;
+  border-radius: 100%;
+  transition: all 400ms;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.socialicn > a > i {
+  color: #080808;
+  font-size: 20px;
+}
+.icnf {
+  padding: 13px 18px;
+}
+.icng {
+  padding: 14px;
+}
+#icface:hover {
+  background-color: #3b5998;
+}
+#icgoogle:hover {
+  background-color: #dd4b39;
+}

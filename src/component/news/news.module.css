@@ -1,0 +1,60 @@
+#paracs {
+  width: 62%;
+  margin: auto;
+}
+.medicalcs {
+  padding: 10px 0;
+  color: #ff70d4;
+}
+.datecs {
+  padding: 10px 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.datecs > i {
+  color: #0000b3;
+  opacity: 0.8;
+}
+.but_read {
+  padding: 10px 22px;
+  width: 130px;
+  border: 1px solid #0000b3;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.but_read:hover {
+  margin-top: -5px;
+  background-color: #0000b3;
+  color: white;
+}
+.pdiv {
+  margin-top: 24px;
+}
+#main_post {
+  height: 100%;
+  padding-bottom: 50px;
+}
+#main_post1 {
+  height: 100%;
+  padding-bottom: 50px;
+}
+#main_post2 {
+  height: 100%;
+  padding-bottom: 50px;
+}
+.igcs:hover {
+  filter: grayscale(70%);
+}
+@media only screen and (max-width: 992px) {
+  #paracs {
+    width: 100%;
+  }
+}
+#main_div {
+  background-color: #f7f7f7;
+}

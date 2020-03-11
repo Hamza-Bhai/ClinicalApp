@@ -1,0 +1,96 @@
+#mndiv {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.signin {
+  background-color: #f7f7f7;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px 8px 14px;
+  margin-right: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+.signin:hover {
+  opacity: 0.9;
+  text-decoration: none;
+  color: black;
+}
+.signin:focus {
+  border: none;
+  outline: none;
+}
+.signup:focus {
+  border: none;
+  outline: none;
+}
+.signup {
+  display: inline-block;
+  background-color: #0000b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px 8px 14px;
+}
+.signup:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+}
+.intp {
+  padding: 8px 35px 8px 15px;
+  width: 300px;
+  outline: 0;
+  border: 1px solid #cedcef;
+  border-radius: 5px;
+}
+.butn1 {
+  position: relative;
+  left: -35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.butn1:focus {
+  border: none;
+  outline: none;
+}
+#icn {
+  font-size: 16px;
+}
+
+#icn1 {
+  font-size: 20px;
+}
+#icn1:hover {
+  cursor: pointer;
+}
+.disp {
+  display: none;
+}
+#icn1:hover .disp {
+  display: block;
+}
+/* @media queiry */
+@media only screen and (max-width: 647px) {
+  .intp {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .intp {
+    display: none;
+  }
+  #icn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .headstick{
+    position: sticky ;
+    top: 0px;
+    z-index: 9999;
+  }
+}

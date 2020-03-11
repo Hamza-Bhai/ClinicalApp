@@ -1,0 +1,63 @@
+.para {
+  width: 80%;
+  margin: auto;
+  font-weight: 100;
+}
+#paracs {
+  width: 62%;
+  margin: auto;
+}
+.icn {
+  background-color: #fef2fb;
+  padding: 15px 25px;
+  border-radius: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+.icn > i {
+  color: #fe70d3;
+  position: relative;
+  top: -3px;
+}
+.but_read {
+  padding: 10px 22px;
+  width: 130px;
+  border: 1px solid #0000b3;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.card:hover .but_read {
+  margin-top: -5px;
+
+  background-color: #0000b3;
+  color: white;
+}
+.card {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 50px;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: -1px 1px 5px #888888;
+  border-top: 2px solid #1f5eb4;
+}
+@media only screen and (max-width: 992px) {
+  .para {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card {
+    margin-left: 7%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #paracs {
+    width: 100%;
+  }
+}

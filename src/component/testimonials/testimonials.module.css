@@ -1,0 +1,43 @@
+.bo:focus {
+  border: none;
+  outline: none;
+}
+
+.bo {
+  border: 1px dotted #bdbdbd;
+  padding: 40px 15px;
+}
+
+.par {
+  margin-top: 40px;
+  padding: 0;
+  line-height: 1.9;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.doc_name {
+  color: #051b35;
+  margin-top: 40px;
+}
+
+.doc_pro {
+  color: #ff86d4;
+}
+.igcs {
+  width: 25%;
+}
+#paracs {
+  width: 62%;
+  margin: auto;
+}
+@media only screen and (max-width: 992px) {
+  #paracs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .igcs {
+    width: 30%;
+  }
+}

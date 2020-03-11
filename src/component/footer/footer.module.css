@@ -1,0 +1,135 @@
+.footercs {
+  background-color: #080808;
+}
+.linkcs {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.anccs > a {
+  display: block;
+  color: #ffffff;
+  opacity: 0.7;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+.anccs > a:hover {
+  opacity: 1;
+}
+.paracs {
+  margin-top: 40px;
+  color: #718495;
+  text-align: center;
+}
+.socialicn {
+  padding-top: 60px;
+  text-align: center;
+}
+.socialicn > a {
+  margin-right: 25px;
+  border-radius: 100%;
+  transition: all 400ms;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.socialicn > a > i {
+  color: #080808;
+  font-size: 20px;
+}
+.icn {
+  padding: 14px 17px;
+}
+.icnf {
+  padding: 13px 18px;
+}
+.icng {
+  padding: 14px;
+}
+#icface:hover {
+  background-color: #3b5998;
+}
+#ictwit:hover {
+  background-color: #1da1f2;
+}
+#icinsta:hover {
+  background-color: #c13584;
+}
+#icgoogle:hover {
+  background-color: #dd4b39;
+}
+#icpint:hover {
+  background-color: #bd081c;
+}
+a:hover i {
+  color: #ffffff;
+}
+@media only screen and (max-width: 408px) {
+  #icpint {
+    position: relative;
+    top: 30px;
+    right: 3px;
+  }
+  .paracs {
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 334px) {
+  #icgoogle {
+    position: relative;
+    top: 30px;
+    right: 5px;
+  }
+}
+@media only screen and (max-width: 256px) {
+  #icgoogle {
+    position: relative;
+    top: 30px;
+    right: -1px;
+  }
+  #icpint {
+    position: relative;
+    top: 48px;
+    right: 1px;
+  }
+  #icinsta {
+    position: relative;
+    top: 30px;
+    right: -1px;
+  }
+  .paracs {
+    padding-top: 45px;
+  }
+}
+@media only screen and (max-width: 184px) {
+  #icgoogle {
+    position: relative;
+    top: 60px;
+    right: -1px;
+  }
+  #icpint {
+    position: relative;
+    top: 60px;
+    right: 1px;
+  }
+}
+@media only screen and (max-width: 179px) {
+  #ictwit {
+    position: relative;
+    top: 30px;
+  }
+  #icinsta {
+    position: relative;
+    top: 60px;
+  }
+  #icpint {
+    position: relative;
+    top: 65px;
+    right: -1px;
+  }
+  #icgoogle {
+    position: relative;
+    top: 145px;
+  }
+  .paracs {
+    padding-top: 120px;
+  }
+}

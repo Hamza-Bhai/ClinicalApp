@@ -1,0 +1,47 @@
+#hide{
+  background-color: white;
+}
+#div1 > ul {
+  list-style: none;
+  padding-left: 0;
+}
+#div1 > ul > li {
+  display: inline-block;
+}
+.list {
+  margin-right: 50px;
+}
+.anch {
+  color: #666666;
+}
+.anch:hover {
+  text-decoration: none;
+  color: #666666;
+}
+.anch1 {
+  background-color: #ff70d4;
+  color: #f7f9f9;
+  padding: 16px;
+  position: absolute;
+  right: 13px;
+  top: -1px;
+  display: inline-block;
+}
+.anch1:hover {
+  color: #f7f9f9;
+  text-decoration: none;
+}
+#div2 {
+  position: relative;
+}
+/* media queiry */
+@media only screen and (max-width: 780px) {
+  .list {
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 753px) {
+  #hide {
+    display: none;
+  }
+}

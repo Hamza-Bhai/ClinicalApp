@@ -1,0 +1,99 @@
+.main_div {
+  background-color: #f7f7f7;
+  padding-top: 10px;
+}
+#heading > a {
+  color: #051b35;
+  text-decoration: none;
+}
+#heading > a:hover {
+  color: #4747c8;
+  text-decoration: none;
+}
+#sub_heading {
+  color: #ff7dd8;
+}
+#facebook {
+  color: #4747c8;
+  cursor: pointer;
+  font-size: larger;
+}
+#instagram {
+  color: #ce5f9e;
+  cursor: pointer;
+  font-size: larger;
+}
+#twitter {
+  color: #1da1f2;
+  cursor: pointer;
+  font-size: larger;
+}
+#paracs {
+  width: 62%;
+  margin: auto;
+}
+#card {
+  box-shadow: 1px 1px 10px #c3c3c3;
+  background-color: #ffffff;
+}
+
+.para {
+  font-weight: lighter;
+  padding-right: 6%;
+  line-height: 28px;
+}
+@media only screen and (max-width: 1200px) {
+  .img_div {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #card_sub_div {
+    margin-top: 40px;
+  }
+  #paracs {
+    width: 100%;
+  }
+  .img_div {
+    width: 420px;
+  }
+  #card_img {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #card_sub_div {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 543px) {
+  .img_div {
+    margin: auto;
+  }
+  #card_sub_div {
+    margin: auto;
+  }
+  .para {
+    height: 8vh;
+    overflow: hidden;
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 434px) {
+  .para {
+    height: 4vh;
+    line-height: normal;
+  }
+  .img_div {
+    width: 500px;
+  }
+}
+/* #paracs {
+  width: 62%;
+  margin: auto;
+}
+@media only screen and (max-width: 992px) {
+  #paracs {
+    width: 100%;
+  }
+} */
