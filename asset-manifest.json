@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/ClinicalApp/static/css/main.220c3c08.chunk.css",
+    "main.js": "/ClinicalApp/static/js/main.dc6c602b.chunk.js",
+    "main.js.map": "/ClinicalApp/static/js/main.dc6c602b.chunk.js.map",
+    "runtime-main.js": "/ClinicalApp/static/js/runtime-main.9ee791e0.js",
+    "runtime-main.js.map": "/ClinicalApp/static/js/runtime-main.9ee791e0.js.map",
+    "static/css/2.026d319b.chunk.css": "/ClinicalApp/static/css/2.026d319b.chunk.css",
+    "static/js/2.701f0f06.chunk.js": "/ClinicalApp/static/js/2.701f0f06.chunk.js",
+    "static/js/2.701f0f06.chunk.js.map": "/ClinicalApp/static/js/2.701f0f06.chunk.js.map",
+    "index.html": "/ClinicalApp/index.html",
+    "precache-manifest.0bf38d95d4ec9e9e92b4b1f3c05b4748.js": "/ClinicalApp/precache-manifest.0bf38d95d4ec9e9e92b4b1f3c05b4748.js",
+    "service-worker.js": "/ClinicalApp/service-worker.js",
+    "static/css/2.026d319b.chunk.css.map": "/ClinicalApp/static/css/2.026d319b.chunk.css.map",
+    "static/css/main.220c3c08.chunk.css.map": "/ClinicalApp/static/css/main.220c3c08.chunk.css.map",
+    "static/js/2.701f0f06.chunk.js.LICENSE.txt": "/ClinicalApp/static/js/2.701f0f06.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/ClinicalApp/static/media/1.a44ed389.jpg",
+    "static/media/2.jpg": "/ClinicalApp/static/media/2.21ade77e.jpg",
+    "static/media/3.jpg": "/ClinicalApp/static/media/3.fb393370.jpg",
+    "static/media/font-awesome.min.css": "/ClinicalApp/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/news1.jpg": "/ClinicalApp/static/media/news1.7dd37eab.jpg",
+    "static/media/news2.jpg": "/ClinicalApp/static/media/news2.703859f3.jpg",
+    "static/media/news3.jpg": "/ClinicalApp/static/media/news3.08b8e58b.jpg",
+    "static/media/patient1.jpg": "/ClinicalApp/static/media/patient1.e7553b4d.jpg",
+    "static/media/patient2.jpg": "/ClinicalApp/static/media/patient2.9524ad8d.jpg",
+    "static/media/patient3.jpg": "/ClinicalApp/static/media/patient3.c16f2ea8.jpg",
+    "static/media/patient5.jpg": "/ClinicalApp/static/media/patient5.185936f9.jpg",
+    "static/media/scope.jpg": "/ClinicalApp/static/media/scope.77a6f9b3.jpg",
+    "static/media/slick-theme.css": "/ClinicalApp/static/media/slick.f97e3bbf.svg",
+    "static/media/signinform.module.css": "/ClinicalApp/static/media/slide4.b3d49978.jpg",
+    "static/media/team1.jpg": "/ClinicalApp/static/media/team1.c04996a6.jpg",
+    "static/media/team2.jpg": "/ClinicalApp/static/media/team2.5d302750.jpg",
+    "static/media/team3.jpg": "/ClinicalApp/static/media/team3.0e0ea9e9.jpg",
+    "static/media/team4.jpg": "/ClinicalApp/static/media/team4.8ebe03a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ee791e0.js",
+    "static/css/2.026d319b.chunk.css",
+    "static/js/2.701f0f06.chunk.js",
+    "static/css/main.220c3c08.chunk.css",
+    "static/js/main.dc6c602b.chunk.js"
+  ]
+}
